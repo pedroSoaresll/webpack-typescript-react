@@ -1,4 +1,5 @@
 import React = require("react");
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class App extends React.Component<any, any> {
     private name: string;
